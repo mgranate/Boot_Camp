@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>HTML 5 Boot Camp</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</head>
+
+	<body>
+	
+		<div data-role="page" id="page-1" data-title="Page 1">
+
+			<div data-role="header">
+				<h1>Header 1</h1>
+			</div><!-- /header -->
+
+			<div data-role="content">
+			
+				<input id="alias" name="alias" value=""/>
+				<input type="button" id="hello_btn" value="Hello!"/>
+				<div id="response"></div>
+				
+				<input type="button" id="movie_btn" value="Movie!"/>
+				<div id="movie"></div>
+
+				<input type="button" id="load_btn"  value="Load!"/>
+				
+			</div><!-- /content -->
+
+			<div data-role="footer" class="footer">
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#page-1" data-role="button" data-transition="slide">Page 1</a>
+					<a href="#page-2" data-role="button" data-transition="fade">Page 2</a>
+					<a href="#page-3" data-role="button" data-transition="flip">Page 3</a>
+				</div>
+			</div><!-- /footer -->
+			
+		</div><!-- /page 1 -->
+		
+		<div data-role="page" id="page-2" data-title="Page 2">
+			
+			<div data-role="header">
+				<h1>Header 2</h1>
+			</div><!-- /header -->
+
+			<div data-role="content">
+				<a href="page2.html" data-rel="dialog" data-transition="slidedown">Open dialog: Page 2</a>
+			</div><!-- /content -->
+			
+			<div data-role="footer" class="footer">
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#page-1" data-role="button" data-transition="slide">Page 1</a>
+					<a href="#page-2" data-role="button" data-transition="fade">Page 2</a>
+					<a href="#page-3" data-role="button" data-transition="flip">Page 3</a>
+				</div>
+			</div><!-- /footer -->
+			
+		</div><!-- /page 2 -->
+		
+		<div data-role="page" id="page-3" data-title="Page 3">
+			
+			<div data-role="header">
+				<h1>Header 3</h1>
+			</div><!-- /header -->
+
+			<div id="page3-content" data-role="content">
+			</div><!-- /content -->
+			
+			<div data-role="footer" class="footer">
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#page-1" data-role="button" data-transition="slide">Page 1</a>
+					<a href="#page-2" data-role="button" data-transition="fade">Page 2</a>
+					<a href="#page-3" data-role="button" data-transition="flip">Page 3</a>
+				</div>
+			</div><!-- /footer -->
+			
+		</div><!-- /page 3 -->
+		
+	</body>
+
+</html>
