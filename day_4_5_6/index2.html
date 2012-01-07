@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>JavaScript Observer Class</title>
+		<script type="text/javascript" src="js/observer.js"></script>
+		<script type="text/javascript">
+			var console = {};
+			console.log = function(o) {
+				alert(o);
+			};
+			
+			/*********************************
+			 *** Decorator Implementation ***
+			*********************************/
+			
+			var f1 = function(data) {
+				console.log('f1 received data: '+data);
+			};
+			
+			var f2 = function(data) {
+				console.log('f2 received even more data: '+data);
+			};
+			
+			var o = new Observer;
+			o.subscribe(f1);
+			o.subscribe(f2);
+			
+			function add() {
+				console.log('f1 was subscribed');
+				o.subscribe(f1);
+			};
+			
+			function remove() {
+				console.log('f1 was unsubscribed');
+				o.unsubscribe(f1);
+			};
+			
+			function notify() {
+				o.fire('huzzah!');
+			};
+			
+		</script>
+	</head>
+	
+	<body id="decorator">
+		<input type="button" id='fire' onclick="javascript:notify()" value="Notify Subscribers (fire)"/>
+		<input type="button" id='unsubscribe' onclick="javascript:remove()" value="Unsubscribe to fn1"/>
+		<input type="button" id='subscribe' onclick="javascript:add()" value="Subscribe to fn1"/>
+	</body>
+	
+</html>
