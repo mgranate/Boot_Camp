@@ -1,0 +1,10 @@
+PRACTICE:
+http://mustache.github.com/
+http://documentcloud.github.com/underscore/
+http://code.google.com/p/jsmart/
+
+XTRAS:
+http://scriptble.com/2011/01/underscore-js-templates/
+http://www.anieto2k.com/2007/08/03/toma-de-contacto-con-json/
+http://blog.eldelweb.com/vp-16-416-0/Uso-practico-de-AJAX-y-JSON.html
+http://www.json.org/js.html

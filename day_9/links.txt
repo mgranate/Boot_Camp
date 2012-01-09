@@ -1,0 +1,10 @@
+PRACTICE:
+http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+http://javascriptweblog.wordpress.com/2011/05/31/a-fresh-look-at-javascript-mixins/
+http://documentcloud.github.com/backbone/
+https://github.com/addyosmani/backbone-fundamentals
+
+XTRAS:
+http://www.genbetadev.com/desarrollo-web/patron-de-diseno-mvc-del-lado-cliente-con-backbonejs
+http://alfonsomarin.com/tutorial-backbone-js-iv-vistas
+http://backbonetutorials.com/

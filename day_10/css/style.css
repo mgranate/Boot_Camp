@@ -1,0 +1,53 @@
+header, nav, article, section, footer, figure, aside {
+    display: block;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.content {
+		/* Mozilla Settings */
+		-moz-column-count: 4;
+		-moz-column-gap: 20px;
+		/* Safari/Chrome Settings */
+		-webkit-column-count: 4;
+		-webkit-column-gap: 20px;
+		/* Others browser */
+		column-count: 4;
+		column-gap: 20px;
+	}
+
+	figure img {
+		height: 500px;
+		width: 500px;
+	}
+	
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+	.content {
+		/* Mozilla Settings */
+		-moz-column-count: 3;
+		-moz-column-gap: 15px;
+		/* Safari/Chrome Settings */
+		-webkit-column-count: 3;
+		-webkit-column-gap: 15px;
+		/* Others browser */
+		column-count: 3;
+		column-gap: 15px;
+	}
+
+	figure img {
+		height: 200px;
+		width: 200px;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+
+	figure  img {
+		display: none;
+	}
+	
+}

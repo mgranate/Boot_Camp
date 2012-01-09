@@ -1,0 +1,87 @@
+#menu {
+	margin: 0;
+	padding: 0;
+}
+
+#menu a:hover {
+	font-weight: bold;
+}
+
+#menu li {
+	display: inline;
+	border-left: 1px solid #333;
+	width: 100px;
+	text-align: center;
+	float: left;
+}
+
+#menu :first-child {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+/* exerc 5.d
+article {
+	min-width: 50px;
+	margin: 0 5px 0 5px;
+	float: left;
+}
+*/
+.hiOne {
+	background-color: red;
+}
+
+.hiTwo {
+	background-color: yellow;
+}
+
+.hiThree {
+	background-color: blue;
+}
+
+span[class^="hi"] {
+	background-color: green;
+}
+
+span[class$="One"] {
+	background-color: cyan;
+}
+
+span[class] {
+	background-color: violet;
+}
+
+article header a:first-of-type {
+	background-color: gray;
+}
+
+article header a:nth-of-type(2) {
+	background-color: black;
+}
+
+p:empty {
+	display: none;
+	/*height: 50px;
+	width: 50px;
+	background-color: red;*/
+}
+
+article {
+	-webkit-box-shadow: 5px 5px 10px #333;  /* x y shadow color */
+	-moz-box-shadow: 5px 5px 10px #333;
+	box-shadow: 5px 5px 10px #333;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#333', offX='5', offY='5', strength='10');
+}
+
+aside {
+	/* Mozilla */
+	-moz-transform:rotate(90deg);
+	/* Safari & Chrome */
+	-webkit-transform:rotate(90deg);
+	/* Opera */
+	-o-transform:rotate(90deg);
+	/* IE */
+	-ms-transform:rotate(90deg);
+}

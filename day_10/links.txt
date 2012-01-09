@@ -1,0 +1,8 @@
+PRACTICE:
+http://www.threestyles.com/tutorials/html5-rocks-my-socks-off/
+http://www.alistapart.com/articles/responsive-web-design/
+http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/
+http://www.quirksmode.org/css/multicolumn.html
+
+XTRAS:
+http://slides.html5rocks.com/
