@@ -1,0 +1,4 @@
+PRACTICE:
+http://www.sitepoint.com/regressive-enhancement-with-modernizr-and-yepnope/
+
+XTRAS:

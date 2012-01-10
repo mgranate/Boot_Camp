@@ -1,0 +1,11 @@
+textarea {
+	width: 500px;
+	height: 300px;
+}
+
+#dropzone {
+	width: 250px;
+	height: 150px;
+	background-color: yellow;
+	text-align: center;
+}

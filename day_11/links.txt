@@ -1,0 +1,11 @@
+PRACTICE:
+http://slides.html5rocks.com/#landing-slide
+http://blog.frontendforce.com/2010/04/html5-javascript-api-whats-new/
+http://playground.html5rocks.com/
+http://websocket.org/echo.html
+
+XTRAS:
+http://www.html5rocks.com/en/tutorials/appcache/beginner/
+http://www.adictosaltrabajo.com/tutoriales/tutoriales.php?pagina=html5
+http://aiminstitute.org/blog/2010/07/basic-geolocation-in-html5/
+http://blogs.msdn.com/b/davrous/archive/2011/07/15/introduction-to-the-html5-web-workers-the-javascript-multithreading-approach.aspx
